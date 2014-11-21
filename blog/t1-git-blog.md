@@ -10,7 +10,7 @@ This is a really powerful tool as not only can you revert when you make a mistak
 
 But what happens when your cat decides to be a total dick and knock a glass of water over onto your laptop?
 
-This is where GitHub comes in.  GitHub is a website, and it's kind of the social media of version control.  One use for it is to link your local folders to folders you create on the website.  When you save your files locally (a process called a "commit" in git) you can also "push" your files up to GitHub.  This gives you an off site backup.
+This is where GitHub comes in.  GitHub is a website, and it's kind of the social media/DropBox of version control.  One use for it is to link your local folders to folders you create on the website.  When you save your files locally (a process called a "commit" in git) you can also "push" your files up to GitHub.  This gives you an off site backup.
 
 But wait!  There's more!
 
