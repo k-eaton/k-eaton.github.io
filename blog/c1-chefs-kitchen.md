@@ -1,0 +1,9 @@
+The DBC Culture
+
+November 22nd, 2014
+
+For my non-DBC readers, we watched a video of one of the founders of DBC explaining the culture they were trying to create within the school.  The basic idea was that it should be more like a kitchen than a restaurant.  To elaborate: in a restaurant, you place your order, you get your food, you pay for it.  You do not participate in the creation of the food, you are not involved (hopefully) in the meals of the other patrons, and you get exactly what you paid for and walk away.  In the kitchen model, everyone participates and hopefully brings something to the party.  (Insert the "Too Many Cooks" theme here.)  Everyone has different experiences and knowledge, and by combining these things as a class, we all gain a richer educational experience.
+
+This sounds great on paper.  I'm looking forward to it when we get to the on-site portion of the program.  But I'm dubious about its plausibility in some ways.  That level of community requires trust, room to be vulnerable, and by default (I believe) a certain amount of time spent together to get to know each other.  Granted we'll all be in the same program for 9 weeks beforehand, but it's online, and even with our required pair programming sessions, we're only going to end up pairing with a limited number of people once or twice.  That's not a lot of time to get to know the individuals in your community.
+
+I hope my concerns are unfounded.  I also hope that I can bring that level of vulnerability necessary to throw myself out there with my ideas, and be open to accepting the ideas of others.  If it works, it'll be a wonderful learning environment, one I think I'll thrive in.  It just sounds a little too good to be true.  (I really hope I'm wrong about that.)
