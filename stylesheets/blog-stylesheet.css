@@ -4,18 +4,16 @@
 	text-decoration: none;
 }
 
-h1 {
-	font-family: serif;
-	font-size: 36px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-
-}
-
 #container {
 	width: 800px;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#right_border {
+	width: 630px;
+	border-right: 1px solid black;
 }
 
 /* Right sidebar*/
@@ -23,14 +21,24 @@ h1 {
 #sidebar {
 	float: right;
 	width: 150px;
-	height: auto;
+	height: 100%;
 	padding-left: 20px;
-	border-left: 1px solid black;
+	/*border-left: 1px solid black;*/
 }
 
 #sidebar img {
 	width: 150px;
 	height: 150px;
+}
+
+/* name */
+
+h1 {
+	font-family: serif;
+	font-size: 36px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+
 }
 
 /* Top Nav */
@@ -60,6 +68,8 @@ nav li {
 	width: 620px;
 	border-bottom: 1px solid black;
 }
+
+
 
 /* Blog Header */
 
