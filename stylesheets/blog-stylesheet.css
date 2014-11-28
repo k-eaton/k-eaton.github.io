@@ -24,6 +24,7 @@ h1 {
 	float: right;
 	width: 150px;
 	padding-left: 20px;
+	padding-bottom: auto;
 	border-left: 1px solid black;
 }
 
