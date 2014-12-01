@@ -2,7 +2,6 @@
 	font-family: sans-serif;
 	list-style-type: none;
 	text-decoration: none;
-	color: #014631;
 }
 
 html {
@@ -112,14 +111,13 @@ nav a:visited{
 
 h2 {
 	width: 620px;
-	color: #001C13;
-	font-family: serif;
-	font-size: 36px;
+	font-family: cursive;
+	font-size: 30px;
 	padding-top: 5px;
 	padding-bottom: 3px;
 	margin-top: 0;
 	margin-bottom: 3px;
-	border-bottom: 1px solid #03001d;
+	/*border-bottom: 1px solid #03001d;*/
 
 }
 
@@ -151,6 +149,14 @@ h2 {
 	padding-top: 10px; 
 	padding-left: 15px;
 	padding-right: 10px;
+}
+
+#content a {
+	color: #110B4A;
+}
+
+#content a:visited {
+	color: #383276;
 }
 
 /* Footer */
