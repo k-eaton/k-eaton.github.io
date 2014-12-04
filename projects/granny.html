@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mah Projects</title>
+	<link type="text/css" rel="stylesheet" href="../stylesheets/project-stylesheet.css">
+</head>
+<body>
+
+<div id="container">
+<div id="sidebar">
+<p>
+<img src="../imgs/birds-150.jpg" />
+&copy; Pixar</p>
+<h3>Recent Posts</h3>
+<ul>
+	<li><a href="#">blah blah blah</a></li>
+	<li><a href="#">blah blah</a></li>
+	<li><a href="#">blah</a></li>
+</ul>
+<h3>Tags</h3>
+<ul>
+    <li><a href="#">Technical</a></li>
+    <li><a href="#">Cultural</a></li>
+</ul>
+</div>
+
+<!-- creates the border between the blog and sidebar -->
+<div id="right_border">
+
+<header>
+	<h1>Katrina Eaton</h1>
+</header>
+
+<nav>
+	<ul>
+		<li><a href="../index.html">Home</a></li>
+		<li><a href="#">Projects</a></li>
+		<li><a href="#">About Me</a></li>
+	</ul>
+</nav>
+
+<div id="blog"/>
+	<div id="blogheader">
+	<h2>Granny</h2>
+	<ul>
+	    <li>December 3rd, 2014</li>
+	    <li id="tags">projects, wtf</li>
+	</ul>
+	</div>
+	<div id="content">
+	<p>
+		Soooooo... At the end of chapter 7 of Chris Pine's <a href="http://www.ebooks-it.net/ebook/learn-to-program-2nd-edition">Learn to Program</a> is an exercise where you create a program where you talk to Grandma who is hard of hearing.  The initial program is really simple, then he proposes a few changes that increase the complexity slightly.  I thought it was cute, and sounded like fun, so I did the challenge.  And lo and behold, I got the damn thing to work!  Even the extended challenge part! 
+	</p>
+	<p>
+		But then I realized I couldn't show it to anyone because I don't know how to embed Ruby into web pages yet.  And that's when I fell down the rabbit hole. I spent an hour converting the program into JavaScript and embedding it into a web page... so I can show off my one trick pony Ruby program.
+	</p>
+	<p>
+		So, uh, yeah.  That's it.  Press the button to play. If you've read the exercises at the end of chapter 7, you'll figure out how to end the conversation.  If you haven't figured it out, it involves the word "bye".  Multiple times.  Oh, and it doesn't work if you have pop-ups turned off.  I'd work on that, but I think I've blown WAY too much time on this already...
+	</p>
+		<button type="button" onclick="grandma()">Talk to Grandma</button>
+
+<script>
+grandma = function() {
+var question = prompt("What would you like to say to grandma?");
+var bye = 0;
+var saying = "Now what were you saying?";
+
+while (bye < 3) {
+	if ((bye === 2 && question === "BYE") || (bye === 2 && question === "BYE!")){
+		alert("Grandma says \" BYE BYE, SONNY!\"");
+		bye++;
+	}
+	else if ((bye === 1 && question === "BYE") || (bye === 1 && question === "BYE!")) {
+		var granny4 = "Grandma remains strangely silent.";
+		bye++;
+		question = prompt(granny4 + "\n" + saying);
+	}
+	else if (question === "BYE" || question === "BYE!") {
+		var granny3 = "Grandma doesn't seem to hear you.";
+		bye++;
+		question = prompt(granny3 + "\n" + saying);
+	}
+	else if (question === question.toUpperCase()) {
+		var year = Math.floor (Math.random() * 20) + 1930;
+		var granny2 = "Grandma says, \"NO, NOT SINCE " + year + "!\"";
+		bye = 0;
+		question = prompt(granny2 + "\n" + saying);
+	}
+	else {
+		var granny1 = "Grandma says, \"WHAT?! SPEAK UP, SONNY!\"";
+		bye = 0;
+		question = prompt(granny1 + "\n" + saying);
+	}
+}
+
+// alert("Grandma says \" BYE BYE, SONNY!\"");
+}
+</script>
+
+	</div>
+</div>
+<footer>
+
+	<ul>
+	    <li><a href="katrina.eaton@gmail.com">Email</a></li>
+	    <li class="divider"><a href="https://github.com/k-eaton">GitHub</a></li>
+	    <li class="divider"><a href="https://www.facebook.com/profile.php?id=100008499931499">Facebook</a></li>
+	    <li class="divider"><a href="https://twitter.com/keaton1775">Twitter</a></li>
+		<li class="divider"><a href="http://www.quora.com/Katie-Eaton-1">Quora</a></li>
+		<li class="divider"><a href="https://www.linkedin.com/pub/katrina-eaton/27/556/3b">Linkedin</a></li>
+	</ul>
+
+	<h6>copyright 2014</h6>
+
+</footer>
+
+
+
+</body>
+</div>
+
+	
+
+</html>
