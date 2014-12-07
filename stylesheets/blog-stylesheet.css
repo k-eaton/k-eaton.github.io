@@ -153,6 +153,32 @@ h2 {
 	padding-right: 10px;
 }
 
+#content li {
+	list-style-type: circle;
+	padding: 5px 10px;
+}
+
+
+
+.image {
+	width: 400px;
+	margin-left: 110px;
+}
+
+.image img {
+	width: 400px;
+	padding: 0;
+	margin: 0;
+	
+}
+
+.image p {
+	margin: 0 auto;
+	text-align: right;
+	font-size: 9px;
+	color: gray;
+}
+
 /* Footer */
 
 footer {
