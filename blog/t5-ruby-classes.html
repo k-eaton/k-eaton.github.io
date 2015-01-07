@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mah Blog</title>
+	<link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css">
+</head>
+<body>
+
+<div id="container">
+<div id="sidebar">
+<p>
+<img src="../imgs/birds-150.jpg" />
+&copy; Pixar</p>
+<h3>Recent Posts</h3>
+<ul>
+	<li><a href="#">blah blah blah</a></li>
+	<li><a href="#">blah blah</a></li>
+	<li><a href="#">blah</a></li>
+</ul>
+<h3>Tags</h3>
+<ul>
+    <li><a href="#">Technical</a></li>
+    <li><a href="#">Cultural</a></li>
+</ul>
+</div>
+
+<!-- creates the border between the blog and sidebar -->
+<div id="right_border">
+
+<header>
+	<h1>Katrina Eaton</h1>
+</header>
+
+<nav>
+	<ul>
+		<li><a href="../index.html">Home</a></li>
+		<li><a href="#">Projects</a></li>
+		<li><a href="#">About Me</a></li>
+	</ul>
+</nav>
+
+<div id="blog"/>
+	<div id="blogheader">
+	<h2>Classy Cats</h2>
+	<ul>
+	    <li>January 6th, 2015</li>
+	    <li id="tags">technical, classes, objects, cats</li>
+	</ul>
+	</div>
+	<div id="content">
+	<p>
+		The best comparison I can think of is to a cat.  (I know, cliche, but work with me here.)  Objects are created by calling an instance of a class.  So a class is simply a template for an object.  Once defined it can be called over and over again to create new objects.  And thus my career as a crazy cat lady is born.
+	</p>
+	<p>
+		A class typically starts with a method called initialize, which starts the party off by defining some basic variables.  These variables will be accessible throughout the object.  For example:
+	</p>
+	<pre>
+		<code>	
+class Cat
+  def initialize (eyes, color, pattern, name)
+   @eyes = eyes
+   @color = color
+   @pattern = pattern
+   @name = name
+  end
+end
+		</code>
+	</pre>
+	<p>
+		To create a new cat, we need to specify some details.
+	</p>
+	<pre>
+		<code>	
+trouble = Cat.new("green", "orange", "tabby", "Trouble")
+		</code>
+	</pre>
+	<p>
+		And congratulations, we have a new cat!  Of course, cats do things.  When you need to make an object do something, you create a method in the class.  There are two kinds of methods, public and private.  A public method is something you can call directly.  For example, we can have our cat come when we call it.  (Oh quit laughing.  It could happen.)  So we create the "come here" method.
+	</p>
+	<pre>
+		<code>	
+  def come_here(cat_call)
+    if cat_call == "Here kitty kitty!"
+      return cat
+    end
+  end
+		</code>
+	</pre>
+	<p>
+		This is a public method because you can call it.
+	</p>
+	<pre>
+		<code>	
+trouble = Cat.new("green", "orange", "tabby", "Trouble")
+trouble.come_here("Here kitty kitty!")
+		</code>
+	</pre>
+	<p>
+		But sometimes there are methods you just can’t access directly.  Example:
+	</p>
+	<pre>
+		<code>	
+  private
+
+  def purr
+    return purr
+  end
+		</code>
+	</pre>
+	<p>
+		The cat can do that, but we can't control it directly.  But there is something we can control:
+	</p>
+	<pre>
+		<code>	
+  def pet
+    cat.pet
+    purr
+  end
+		</code>
+	</pre>
+	<p>
+		(You'd have to place this above the word private in the class.)
+	</p>
+	<p>
+		Now you can pet your cat, and in turn it returns a purr, accessing the method you can't directly control.
+	</p>
+	<pre>
+		<code>	
+trouble = Cat.new("green", "orange", "tabby", "Trouble")
+trouble.come_here("Here kitty kitty!")
+trouble.pet
+		</code>
+	</pre>
+	<p>
+		So now you too have access to your own crazy cat lady starter kit.
+	</p>
+	<pre>
+		<code>	
+class Cat
+
+  def initialize (eyes, color, pattern, name)
+   @eyes = eyes
+   @color = color
+   @pattern = pattern
+   @name = name
+  end
+
+  def come_here(cat_call)
+    if cat_call == "Here kitty kitty!"
+      return cat
+    end
+  end
+
+  def pet
+    cat.pet
+    purr
+  end
+
+  private
+
+  def purr
+    return purr
+  end
+
+end
+		</code>
+	</pre>
+	<p>
+		And now you can enjoy your new cat.
+	</p>
+
+	</div>
+</div>
+<footer>
+
+	<ul>
+	    <li><a href="katrina.eaton@gmail.com">Email</a></li>
+	    <li class="divider"><a href="https://github.com/k-eaton">GitHub</a></li>
+	    <li class="divider"><a href="https://www.facebook.com/profile.php?id=100008499931499">Facebook</a></li>
+	    <li class="divider"><a href="https://twitter.com/keaton1775">Twitter</a></li>
+		<li class="divider"><a href="http://www.quora.com/Katie-Eaton-1">Quora</a></li>
+		<li class="divider"><a href="https://www.linkedin.com/pub/katrina-eaton/27/556/3b">Linkedin</a></li>
+	</ul>
+
+	<h6>copyright 2014</h6>
+
+</footer>
+
+
+
+</body>
+</div>
+
+	
+
+</html>
