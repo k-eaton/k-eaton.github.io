@@ -1,0 +1,42 @@
+body {
+  font-size: 1.1em;
+}
+
+.container {
+  margin: auto 0;
+  width: 1050px;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+nav {
+  position: fixed;
+  left: 0;
+  width: 150px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+section {
+  margin-left: 150px;
+  max-width: 900px;
+  border-left: 1px solid black;
+  padding-left: 10px;
+
+}
+
+table {
+  border-collapse: collapse;
+  font-family: sans-serif;
+}
+
+table, th, td {
+  border: 1px solid black;
