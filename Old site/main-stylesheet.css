@@ -1,0 +1,190 @@
+* {
+	font-family: sans-serif;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+html {
+	background-color: #2b4b6f;
+}
+
+a {
+	color: #257059;
+}
+
+a:visited {
+	color: #649B8A;
+}
+
+#container {
+	background-color: #cdd4d2;
+	border-radius: 25px;
+	padding: 15px;
+	width: 800px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#right_border {
+	width: 630px;
+	border-right: 1px solid #03001d;
+}
+
+/* Right sidebar*/
+
+#sidebar {
+	float: right;
+	width: 150px;
+	height: 100%;
+	padding-left: 20px;
+	/*border-left: 1px solid black;*/
+}
+
+#sidebar img {
+	width: 150px;
+	height: 150px;
+	border: 1px solid #03001d;
+}
+
+#sidebar p {
+	padding :0;
+	margin: 0;
+	font-size: 8px;
+}
+
+/* name */
+
+h1 {
+	color: #072445;
+	font-family: serif;
+	font-size: 36px;
+	/* text-shadow: 1px 1px 1px #000d1b; */
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 0;
+	padding-top: 0;
+
+}
+
+/* Top Nav */
+
+nav {
+	width: 620px;
+	border-bottom: 1px solid #03001d;
+}
+
+nav ul {
+	padding-left: 1px;
+	margin-left: 0px;
+	padding-top: 7px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	
+}
+
+nav li {
+	float: left;
+	font-size: 11px;
+	padding-right: 50px;
+}
+
+nav a {
+	color: #072445;
+}
+
+nav a:visited{
+	color: #2B4B6F;
+}
+
+/* Blog container */
+
+#blog {
+	clear: left;
+	width: 620px;
+	border-bottom: 1px solid #03001d;
+}
+
+
+
+/* Blog Header */
+
+h2 {
+	width: 620px;
+	font-family: cursive;
+	font-size: 30px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	margin-top: 0;
+	margin-bottom: 3px;
+	/*border-bottom: 1px solid #03001d;*/
+
+}
+
+#blogheader ul {
+	padding: 0px;
+	margin: 0px;
+	padding-left: 1px;
+}
+
+#blogheader li {
+	font-size: 11px;
+	float: left;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 60px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#tags {
+	padding-left: 4px;
+	border-left: 1px solid #03001d;
+}
+
+/* Blog Content */
+
+#content {
+	clear: left;
+	padding-top: 10px; 
+	padding-left: 15px;
+	padding-right: 10px;
+}
+
+#content a {
+	color: #110B4A;
+}
+
+#content a:visited {
+	color: #383276;
+}
+
+/* Footer */
+
+footer {
+	clear: left;
+}
+
+footer ul {
+	padding: 0px;
+	margin: 0px;
+	padding-left: 1px;
+	padding-top: 4px;
+}
+
+footer li {
+	float: left;
+	font-size: 12px;
+	padding-right: 20px;
+}
+
+.divider {
+	padding-left:20px;
+	border-left: 1px solid #03001d;
+}
+
+h6 {
+	clear: left;
+	padding-left: 280px;
+	padding-top: 3px;
+}

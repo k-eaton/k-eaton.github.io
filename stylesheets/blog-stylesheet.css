@@ -51,8 +51,8 @@ aside {
 	margin-left: 50px;
 }
 
-#bloglist {
-	padding: 10px 0;
+#bloglist li{
+	padding: 3px 0;
 }
 
 #bloglist a {
@@ -89,6 +89,11 @@ section header li {
 
 article {
 	clear: left;
+	margin-right: 200px;
+}
+
+article li {
+	padding: 3px 0;
 }
 
 /*   Footer   */
