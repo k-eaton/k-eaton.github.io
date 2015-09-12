@@ -96,6 +96,15 @@ article li {
 	padding: 3px 0;
 }
 
+article h2 {
+	padding: 0;
+	margin: 0;
+}
+
+.git {
+	font-size: 12px;
+}
+
 /*   Footer   */
 
 footer {
